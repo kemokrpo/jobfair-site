@@ -11,9 +11,10 @@ const HomeSection: React.FC = () => {
       }}
     >
       <div className="flex flex-col items-center md:items-start px-4 md:pl-12">
-        <h5 className="text-[1rem] md:text-[1.6rem] font-medium tracking-[0.2rem] md:tracking-[1.5rem] text-[#2b2323] uppercase mb-4 md:ml-[170px]">
-          BEST PRESENTS
-        </h5>
+      <h5 className="text-[1rem] md:text-[1.6rem] font-medium tracking-[0.2rem] md:tracking-[1.5rem] text-[#2b2323] uppercase mb-4 md:self-center">
+  BEST PRESENTS
+</h5>
+
         <h1 className="text-[2rem] md:text-[80px] font-bold text-[#1F4293] mb-[15px] md:mb-[25px] leading-[1.2] md:leading-[1.4]">
           Jobfair & Academy
         </h1>
