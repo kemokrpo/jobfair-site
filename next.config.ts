@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,  // Optional, enables React Strict Mode for development
+  output: 'export',
+  distDir: 'out',
+  trailingSlash: true, // Ensures compatibility with GitHub Pages
 };
 
 export default nextConfig;
