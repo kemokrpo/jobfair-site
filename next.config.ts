@@ -1,9 +1,9 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  output: 'export',
-  distDir: 'out',
-  trailingSlash: true, // Ensures compatibility with GitHub Pages
-  basePath: '/jobfair-site', // Replace with your GitHub repository name
+  output: 'export', // Static export mode
+  distDir: 'out',   // Directory for output (static files)
+  trailingSlash: true, // Ensure compatibility with GitHub Pages and proper routing
+  reactStrictMode: true, // Optional: Enables React Strict Mode
 };
 
-export default nextConfig;
+module.exports = nextConfig;
