@@ -43,7 +43,7 @@ const AboutSection: React.FC = () => {
           Agenda
         </Link>
         <Link
-          href="/partners" // Path to the partners page
+          href="/partners" // Path to the partners pagee
           className="px-[40px] py-[10px] bg-[#162E72] text-white rounded-full mt-[10px] ml-[50px] hover:scale-[1.2] hover:bg-[#35404e] transition-all duration-400 hover:shadow-[0_5px_15px_2px_rgba(63,44,44,0.18)]"
         >
           Partners
