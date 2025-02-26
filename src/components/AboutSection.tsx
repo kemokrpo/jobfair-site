@@ -1,14 +1,17 @@
 import React from "react";
 import Link from "next/link"; // Import Next.js Link component
+import Image from "next/image"; // Import Next.js Image component
 
 const AboutSection: React.FC = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-[10rem] items-center py-[100px] px-8 relative">
       <div className="about-image">
-        <img
+        <Image
           src="/s2.jpg"
           alt="About Jobfair"
           className="max-w-full w-[650px] m-[100px] border-[3px] border-[#1F4293]"
+          width={650}
+          height={500} // Add dimensions for the Image component
         />
       </div>
       <div className="about-text mr-[70px]">

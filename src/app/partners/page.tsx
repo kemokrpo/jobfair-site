@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Partners: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const Partners: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-12">
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">SETEC</h3>
-            <img src="/slike/setec.png" alt="SETEC" />
+            <Image src="/slike/setec.png" alt="SETEC" width={200} height={200} />
           </div>
         </div>
       </section>
@@ -28,19 +29,19 @@ const Partners: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-12">
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">SMED Engineering</h3>
-            <img src="/slike/smedeng.png" alt="SMED Engineering" />
+            <Image src="/slike/smedeng.png" alt="SMED Engineering" width={200} height={200} />
           </div>
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">Telus Digital</h3>
-            <img src="/slike/telus.png" alt="Telus Digital" />
+            <Image src="/slike/telus.png" alt="Telus Digital" width={200} height={200} />
           </div>
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">AtlantBH</h3>
-            <img src="/slike/atlant.png" alt="AtlantBH" />
+            <Image src="/slike/atlant.png" alt="AtlantBH" width={200} height={200} />
           </div>
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">UniCredit Bank</h3>
-            <img src="/slike/unicredit.png" alt="UniCredit Bank" />
+            <Image src="/slike/unicredit.png" alt="UniCredit Bank" width={200} height={200} />
           </div>
         </div>
       </section>
@@ -55,7 +56,7 @@ const Partners: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-12">
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">BHFF</h3>
-            <img src="/slike/BHFF.png" alt="BHFF" />
+            <Image src="/slike/BHFF.png" alt="BHFF" width={200} height={200} />
           </div>
         </div>
       </section>
@@ -70,7 +71,7 @@ const Partners: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-12">
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">Bolji Posao</h3>
-            <img src="/slike/boljiposao.jpeg" alt="Bolji Posao" />
+            <Image src="/slike/boljiposao.jpeg" alt="Bolji Posao" width={200} height={200} />
           </div>
         </div>
       </section>

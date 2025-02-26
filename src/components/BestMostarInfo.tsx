@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image"; // Import Next.js Image component
 
 const BestMostarInfo: React.FC = () => {
   return (
@@ -13,10 +14,12 @@ const BestMostarInfo: React.FC = () => {
     >
       {/* Image Section */}
       <div className="p-4 md:w-2/3">
-        <img
+        <Image
           src="/aboutBestPicture.jpg"
           alt="BEST Mostar"
           className="border-2 border-white p-2 rounded-lg w-full"
+          width={800} // Set appropriate width
+          height={600} // Set appropriate height
         />
       </div>
 
