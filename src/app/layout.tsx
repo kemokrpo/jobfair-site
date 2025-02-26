@@ -2,6 +2,7 @@
 import { Geist, Geist_Mono } from "next/font/google";*/}
 import './globals.css';
 import Footer from "@/components/Footer";
+import Navbar from '@/components/Navbar';
 
 export const metadata = {
   title: 'Jobfair Mostar',
@@ -19,6 +20,7 @@ export default function RootLayout({
         {/*<header className="bg-blue-500 text-white p-4">
           <h1>Jobfair Mostarr</h1>
         </header>*/}
+        <Navbar />
         <main>{children}</main>
         <Footer />
       </body>
