@@ -57,9 +57,7 @@ const Navbar = () => {
         }`}
       >
         <li className="hover:underline">
-          <Link href="https://best.eu.org" target="_blank" onClick={() => setMenuOpen(false)}>
-            BEST International
-          </Link>
+          <Link href="/">Home</Link>
         </li>
         <li className="hover:underline">
           <Link href="/agenda" onClick={() => setMenuOpen(false)}>
@@ -74,6 +72,11 @@ const Navbar = () => {
         <li className="hover:underline">
           <Link href="/history" onClick={() => setMenuOpen(false)}>
             History
+          </Link>
+        </li>
+        <li className="hover:underline">
+          <Link href="https://best.eu.org" className="text-orange-500" target="_blank" onClick={() => setMenuOpen(false)}>
+            BEST International
           </Link>
         </li>
       </ul>

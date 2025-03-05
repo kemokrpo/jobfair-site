@@ -24,9 +24,7 @@ const Partners: React.FC = () => {
                 className="object-contain max-w-full max-h-[150px]"
               />
             </div>
-            {/* Optional small text */}
-            <div className="mt-2 text-sm text-gray-600">x3 godine za redom</div> {/* You can leave this empty or put any value */}
-          </div>
+            </div>
         </div>
       </section>
 
@@ -61,10 +59,7 @@ const Partners: React.FC = () => {
                   className="object-contain max-w-full max-h-[150px]"
                 />
               </div>
-              {/* Optional small text */}
-              {partner.extraText && (
-                <div className="mt-2 text-sm text-gray-600">{partner.extraText} godine za redom</div>
-              )}
+              
             </div>
           ))}
         </div>
@@ -90,8 +85,7 @@ const Partners: React.FC = () => {
                 className="object-contain max-w-full max-h-[150px]"
               />
             </div>
-            {/* Optional small text */}
-            <div className="mt-2 text-sm text-gray-600"> ‎ </div> {/* You can leave this empty or put any value */}
+            
           </div>
         </div>
       </section>
@@ -116,8 +110,7 @@ const Partners: React.FC = () => {
                 className="object-contain max-w-full max-h-[150px]"
               />
             </div>
-            {/* Optional small text */}
-            <div className="mt-2 text-sm text-gray-600">x2 godine za redom</div> {/* You can leave this empty or put any value */}
+            
           </div>
         </div>
       </section>
