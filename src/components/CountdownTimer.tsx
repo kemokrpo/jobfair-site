@@ -31,7 +31,7 @@ const CountdownTimer: React.FC = () => {
   }, []);
 
   return (
-    <p className="self-center text-center text-[1.3rem] text-[#2b2323] mt-12">
+    <p className="self-center text-center font-black text-[2.5rem] text-red-700 mt-12">
       {timeLeft}
     </p>
   );

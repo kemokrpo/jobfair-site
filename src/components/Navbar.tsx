@@ -31,6 +31,9 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex space-x-6 text-white">
+      <li className="hover:underline">
+          <Link href="/">Home</Link>
+        </li>
         <li className="hover:underline">
           <Link href="/agenda">Agenda</Link>
         </li>
@@ -41,7 +44,7 @@ const Navbar = () => {
           <Link href="/history">History</Link>
         </li>
         <li className="hover:underline">
-          <Link href="https://best.eu.org" target="_blank">
+          <Link href="https://best.eu.org" target="_blank" className="text-orange-500">
             BEST International
           </Link>
         </li>
@@ -53,6 +56,11 @@ const Navbar = () => {
           menuOpen ? "block" : "hidden"
         }`}
       >
+        <li className="hover:underline">
+          <Link href="https://best.eu.org" target="_blank" onClick={() => setMenuOpen(false)}>
+            BEST International
+          </Link>
+        </li>
         <li className="hover:underline">
           <Link href="/agenda" onClick={() => setMenuOpen(false)}>
             Agenda
@@ -66,11 +74,6 @@ const Navbar = () => {
         <li className="hover:underline">
           <Link href="/history" onClick={() => setMenuOpen(false)}>
             History
-          </Link>
-        </li>
-        <li className="hover:underline">
-          <Link href="https://best.eu.org" target="_blank" onClick={() => setMenuOpen(false)}>
-            BEST International
           </Link>
         </li>
       </ul>

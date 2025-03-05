@@ -22,7 +22,7 @@ const AboutSection: React.FC = () => {
           About
         </span>
         <h2 className="text-2xl md:text-3xl lg:text-[2.26rem] font-bold text-[#1F4293] uppercase mb-6">
-          Jobfair & Academy
+          Jobfair & Business Academy
         </h2>
         <p className="text-sm md:text-base lg:text-[1.3rem] text-[#35404e] leading-relaxed md:leading-[1.7] mb-6">
           Sajam zapošljavanja predstavlja jedan od najvažnijih projekata koje
@@ -30,13 +30,14 @@ const AboutSection: React.FC = () => {
           izuzetnu priliku da ostvare direktan kontakt sa predstavnicima
           kompanija, steknu uvid u očekivanja poslodavaca i saznaju koje su
           vještine najpoželjnije u njihovoj struci. Posjetioci Sajma
-          zapošljavanja imaće priliku upoznati se sa različitim mogućnostima
+          zapošljavanja koji će se održavati od 7.4. do 9.4., imaće priliku upoznati se sa različitim mogućnostima
           koje tržište rada u našoj zemlji nudi, što će im pomoći da donesu
           informisane odluke u vezi sa izborom budućeg profesionalnog puta i
           razvijanjem svojih karijernih ciljeva. Dodatno, kroz organizaciju
           besplatnih, interaktivnih radionica, Akademija omogućava mladim
           ljudima da unaprijede svoje lične i profesionalne vještine i tako
           izgrade uspješnu karijeru.
+          Dodatno, Biznis akademija nudi interaktivne radionice i predavanja stručnjaka, pomažući učesnicima da razviju poslovne i komunikacijske vještine ključne za uspješnu karijeru.
         </p>
 
         {/* Buttons */}
