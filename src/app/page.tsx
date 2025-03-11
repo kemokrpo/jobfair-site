@@ -9,7 +9,6 @@ const Page: React.FC = () => {
   return (
     <main className="bg-[#f9f9ff] text-[#35404e]">
       <HomeSection />
-      
       <AboutSection />
       <BestMostarInfo />
       

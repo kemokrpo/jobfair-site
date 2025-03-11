@@ -19,10 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Manually set the favicon */}
+        <link rel="icon" href="/jobfair-logo-colored.jpg" />
+      </head>
       <body>
-        {/*<header className="bg-blue-500 text-white p-4">
-          <h1>Jobfair Mostarr</h1>
-        </header>*/}
         <Navbar />
         <main>{children}</main>
         <Footer />
