@@ -7,6 +7,9 @@ import Navbar from '@/components/Navbar';
 export const metadata = {
   title: 'Jobfair Mostar',
   description: 'Where Ambitions Meet Opportunities',
+  icons: {
+    icon: "/jobfair-logo-colored.jpg"
+  },
 };
 
 export default function RootLayout({
