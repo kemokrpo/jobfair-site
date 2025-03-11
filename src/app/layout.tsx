@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Manually set the favicon */}
-        <link rel="icon" href="/jobfair-logo-colored.jpg" />
+        <link rel="icon" type="image/x-icon" href="/jobfair-logo-colored.jpg" />
       </head>
       <body>
         <Navbar />
