@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const directories = ["./public/slike/2023", "./public/slike/2024"];
+const directories = ["./public/slike/2022", "./public/slike/2023", "./public/slike/2024"];
 const outputFile = "./src/data/images.json"; // Output JSON file
 
 const generateImageList = () => {

@@ -46,9 +46,10 @@ const History: React.FC = () => {
             JobFair & Hackathon 2022
           </h3>
           <p className="text-gray-600 text-lg leading-relaxed mb-4">
-          Prvi Sajam zapošljavanja održan je 2022. godine u sklopu online Hackathon-a, programerskog takmičenja koje okuplja mlade talente u rješavanju tehnoloških izazova. Kao prvi događaj te vrste, sajam je omogućio učesnicima da virtuelno stupe u kontakt s predstavnicima kompanija, steknu uvid u tržište rada i saznaju koje su vještine najtraženije u IT industriji i srodnim sektorima.
+          Sajam zapošljavanja 2022. godine održan je u sklopu online Hackathon-a, programerskog takmičenja koje okuplja mlade talente u rješavanju tehnoloških izazova. Kao prvi događaj te vrste, sajam je omogućio učesnicima da virtuelno stupe u kontakt s predstavnicima kompanija, steknu uvid u tržište rada i saznaju koje su vještine najtraženije u IT industriji i srodnim sektorima.
           Kroz online panele, prezentacije i individualne razgovore, posjetioci su imali priliku povezati se s poslodavcima, dobiti savjete o zapošljavanju i istražiti mogućnosti za praksu i zaposlenje. Ovaj pionirski događaj postavio je temelje za buduće sajmove, otvarajući vrata mladim profesionalcima ka novim karijernim prilikama.
           </p>
+          <SlickSlider folder="slike/2022" />
         </div>
       </div>
     </section>
