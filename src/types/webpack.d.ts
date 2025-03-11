@@ -1,5 +1,5 @@
 declare const __WebpackModuleApi: {
-    require: (path: string) => any;
+    require: (path: string) => string; 
 };
 
 declare module '*.png' {
