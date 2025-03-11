@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import Image from "next/image";
 
 interface SlickSliderProps {
   folder: string;
@@ -7,7 +8,6 @@ interface SlickSliderProps {
 const SlickSlider: React.FC<SlickSliderProps> = ({ folder }) => {
   const [images, setImages] = useState<string[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isFading, setIsFading] = useState(true); // Fade effect for interval
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const [transitionType, setTransitionType] = useState<"fade" | "slide">("fade");
 
@@ -28,12 +28,12 @@ const SlickSlider: React.FC<SlickSliderProps> = ({ folder }) => {
     fetchImages();
   }, [folder]);
 
-  const startAutoSlide = () => {
+  const startAutoSlide = useCallback(() => {
     intervalRef.current = setInterval(() => {
       setTransitionType("fade");
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 5000);
-  };
+  }, [images.length]);
 
   const resetAutoSlide = () => {
     if (intervalRef.current) {
@@ -50,7 +50,7 @@ const SlickSlider: React.FC<SlickSliderProps> = ({ folder }) => {
         clearInterval(intervalRef.current);
       }
     };
-  }, [images]);
+  }, [images, startAutoSlide]);
 
   const nextSlide = () => {
     setTransitionType("slide");
@@ -89,10 +89,12 @@ const SlickSlider: React.FC<SlickSliderProps> = ({ folder }) => {
     >
       <div className="relative w-full h-64">
         {images.map((image, index) => (
-          <img
+          <Image
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
+            fill
+            sizes="100vw"
             className={`absolute w-full h-full object-cover rounded-lg shadow-lg transition-all duration-700 ${
               transitionType === "fade"
                 ? index === currentIndex
