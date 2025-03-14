@@ -24,7 +24,7 @@ const BestMostarInfo: React.FC = () => {
           BEST (Board of European Students of Technology) je volonterska,
           neprofitna, apolitička studentska organizacija osnovana s ciljem
           pružanja mogućnosti za komunikaciju, suradnju i razvoj studenata
-          inženjerstva širom Evrope. Djelujemo u 34 zemlje Evrope, sa 85 lokalne
+          inženjerstva širom Evrope. Djelujemo u 34 zemlje Evrope, sa 84 lokalne
           BEST grupe i 3300+ članova. Težimo pružanju komplementarnog znanja i
           prilika studentima da steknu dodatne praktične vještine.
           <br />
