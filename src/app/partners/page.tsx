@@ -100,7 +100,7 @@ const Partners: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-12">
           <div className="p-8 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out flex flex-col items-center aspect-square max-w-sm mx-auto">
             <h3 className="text-xl font-semibold text-blue-700 mb-4">Bolji Posao</h3>
-            {/* Image Container with maximum size control */}
+            {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
                 src="/slike/boljiposao.jpeg"
