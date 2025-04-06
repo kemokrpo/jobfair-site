@@ -24,11 +24,8 @@ const Agenda: React.FC = () => {
             ~ Pauza (11:30-12:00)<br></br>
             ~ Radionica 2 (12:00 - 13:30)<br></br>
             ~ Zatvaranje (14:00)<br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            g
+            
+           
 
           </p>
         </div>
