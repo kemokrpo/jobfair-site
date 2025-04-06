@@ -39,8 +39,8 @@ const Partners: React.FC = () => {
           {[
             { name: "SMED Engineering", src: "/slike/smedeng.png", extraText: "x5" },
             { name: "Telus Digital", src: "/slike/telus.png", extraText: "" },
-            { name: "NLB", src: "/slike/atlant.png", extraText: "x2" },
-            { name: "Bright Moon Digital", src: "/slike/atlant.png", extraText: "x2" },
+            { name: "NLB", src: "/slike/nlb.png", extraText: "x2" },
+            { name: "Bright Moon Digital", src: "/slike/digital.jpeg", extraText: "x2" },
             { name: "UniCredit Bank", src: "/slike/unicredit.png", extraText: "x4" },
           ].map((partner) => (
             <div
@@ -94,7 +94,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/BHFF.png"
+                src="/slike/intera.webp"
                 alt="BHFF"
                 width={200}
                 height={200}
@@ -109,7 +109,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/BHFF.png"
+                src="/slike/nsoft.jpeg"
                 alt="BHFF"
                 width={200}
                 height={200}
@@ -148,7 +148,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/boljiposao.jpeg"
+                src="/slike/bljesak.jpeg"
                 alt="Bolji Posao"
                 width={200}
                 height={200}
@@ -163,7 +163,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/boljiposao.jpeg"
+                src="/slike/studomat.png"
                 alt="Bolji Posao"
                 width={200}
                 height={200}
@@ -177,7 +177,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/boljiposao.jpeg"
+                src="/slike/radioIlijas.jpg"
                 alt="Bolji Posao"
                 width={200}
                 height={200}
@@ -191,7 +191,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/boljiposao.jpeg"
+                src="/slike/buka.png"
                 alt="Bolji Posao"
                 width={200}
                 height={200}
@@ -206,7 +206,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/boljiposao.jpeg"
+                src="/slike/gradiska.png"
                 alt="Bolji Posao"
                 width={200}
                 height={200}
@@ -220,7 +220,7 @@ const Partners: React.FC = () => {
             {/* Image Container with maximum size control Promjena komentara */}
             <div className="w-full flex justify-center max-w-[200px]">
               <Image
-                src="/slike/boljiposao.jpeg"
+                src="/slike/radio m.jpeg"
                 alt="Bolji Posao"
                 width={200}
                 height={200}
